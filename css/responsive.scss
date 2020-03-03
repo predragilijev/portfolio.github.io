@@ -1,0 +1,193 @@
+@media screen and (max-width: 1180px) {
+    body {
+        header {
+            .darkbg {
+                #maintext {
+                    h1 {
+                        justify-content: center;
+                        margin-top: 140px;
+                    }
+                    h2 {
+                        justify-content: center;
+                        left: 0;
+                    }
+                    #projb {
+                        margin: 0 auto;
+                        left: 0;
+                    }
+                }
+                nav {
+                    justify-content: center;
+                }
+            }
+        }
+        main {
+            #projects {
+                #projlist {
+                    .projsite {
+                        flex: 0 0 50%;
+                        padding: 2%;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 960px) {
+    body {
+        main {
+            #projects {
+                #projlist {
+                    padding: 0px 0.8%;
+                    .projsite {
+                        //flex: 0 0 100%;
+                        padding: 1%;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 865px) {
+    body {
+        main {
+            #skills {
+                #skillstypes {
+                    .type {
+                        flex: 0 0 50%;
+                    }
+                }
+            }
+            #about {
+                #aboutcontain {
+                    flex-direction: column;
+                    #image {
+                        margin-bottom: 2%;
+                        img {
+                            width: 80%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 750px) {
+    body {
+        header {
+            .darkbg {
+                #maintext {
+                    h1 {
+                        justify-content: center;
+                        margin-top: 110px;
+                    }
+                }
+                nav {
+                    flex-direction: column;
+                    align-items: center;
+                    height: 250px;
+                    a {
+                        border: 0;
+                        font-size: 1.3em;
+                    }
+                    img {
+                        margin-left: 0;
+                        padding-top: 45px;
+                    }
+                    ul {
+                        align-items: center;
+                        //justify-content: center;
+                        flex-flow: column;
+                        margin-right: 0;
+                        margin-bottom: 25px;
+                        li {
+                            margin-bottom: 10px;
+                        }
+                    }
+                }
+            }
+        }
+        main {
+            #projects {
+                #projlist {
+                    padding: 0.5%;
+                    flex-direction: column;
+                    .projsite {
+                        
+                        padding: 2%;
+                    }
+                }
+            }
+            footer {
+                height: 790px;
+                flex-direction: column;
+                #ftlinks {
+                    width: 84%;
+                    margin-bottom: 50px;
+                }
+                #ftform {
+                    width: 84%;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 565px) {
+    body {
+        header {
+            .darkbg {
+                #maintext {
+                    h1 {
+                        font-size: 2.4em;
+                    }
+                    h2 {
+                        font-size: 1.1em;
+                    }
+                    #projb {
+                        top: 330px;
+                    }
+                }
+            }
+        }
+        main {
+            #projects {
+                #projlist {
+                    padding: 0;
+                    .projsite {
+                        padding: 18px 0px;
+                        img {
+                            border-radius: 0;
+                        }
+                    }
+                }
+            }
+            #skills {
+                #skillstypes {
+                    flex-direction: column;
+                    .type {
+                        margin-top: 35px;
+                    }
+                }
+            }
+            #about {
+                #aboutcontain {
+                    #image {
+                        img {
+                            width: 70%;
+                            margin-right: 35px;
+                        }
+                    }
+                }
+            }
+            footer {
+                #ftlinks {
+                    width: 94%;
+                }
+                #ftform {
+                    width: 94%;
+                }
+            }
+        }
+    }
+}
